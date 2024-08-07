@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #F6BF8D;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espaçamento entre os itens */
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: #9D693A;
+  font-size: 1.2em;
+}
+
+  .logo {
+    position: absolute;
+    top: 10px; /* Ajuste conforme necessário */
+    left: 10px; /* Ajuste conforme necessário */
+    z-index: 1000; /* Garante que o logo fique acima do conteúdo */
+  }
+  
+  .logo img {
+    width: 75px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+  }
+  .icon {
+    display: flex;
+    top: 10px;
+    right: 10px;
+  }
+  
+  
+  .icon a {
+    color: #000;
+    font-size: 24px;
+    text-decoration: none;
+  
+  }
+  
+  .icon-container.right {
+    right: 100px;
+  }
+  
+  .icon a:hover {
+    color: #007bff;
+  }
+  
+  .icon-container {
+      position: absolute;
+      top: 15px;
+      right: 10px;
+      
+  }
+  
+  .icon-container img {
+      width: 30px;
+      height: 30px;
+  }
+  
+  
+  .content {
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  nav {
+    margin: 20px 0;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centraliza os itens do nav */
+    gap: 20px; /* Espaçamento entre os itens */
+  }
+  
+  .nav-list li {
+    display: inline;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+  }
+  
+ 
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.imagem {
+    margin-right: 20px; /* Espaço entre a imagem e as colunas */
+    max-width: 30%; /* Define a largura máxima da imagem */
+}
+
+.colunas {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Permite que as colunas ocupem o espaço restante */
+}
+
+.coluna {
+    margin-bottom: 20px; /* Espaço entre as colunas */
+}
+
+@media (min-width: 768px) {
+    .colunas {
+        flex-direction: row; /* Em telas maiores, coloca as colunas lado a lado */
+    }
+    
+    .coluna {
+        flex: 1; /* Permite que cada coluna ocupe o mesmo espaço */
+        margin-bottom: 0; /* Remove o espaço inferior quando as colunas estão lado a lado */
+        margin-right: 20px; /* Espaço entre as colunas */
+    }
+    
+    .coluna:last-child {
+        margin-right: 0; /* Remove o espaço à direita da última coluna */
+    }
+}

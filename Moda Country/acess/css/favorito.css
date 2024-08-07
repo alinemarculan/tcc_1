@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Centraliza o texto do corpo */
+}
+
+header {
+  background-color: #F6BF8D;
+  padding: 20px 0;
+}
+
+.logo {
+  position: absolute;
+  top: 10px; /* Ajuste conforme necessário */
+  left: 10px; /* Ajuste conforme necessário */
+  z-index: 1000; /* Garante que o logo fique acima do conteúdo */
+}
+
+.logo img {
+  width: 75px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+}
+
+.icon {
+  display: flex;
+  top: 10px;
+  right: 10px;
+}
+
+
+.icon a {
+  color: #000;
+  font-size: 24px;
+  text-decoration: none;
+
+}
+
+.icon-container.right {
+  right: 100px;
+}
+
+.icon a:hover {
+  color: #007bff;
+}
+
+.icon-container {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    
+}
+
+.icon-container img {
+    width: 30px;
+    height: 30px;
+}
+
+header h1 {
+  margin: 20px;
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espaçamento entre os itens */
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: #9D693A;
+  font-size: 1.2em;
+}
+  
+  .container {
+    padding: 10px;
+
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+
+nav {
+  margin: 20px 0;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centraliza os itens do nav */
+  gap: 20px; /* Espaçamento entre os itens */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1px;
+}
+
+nav ul li a {
+  color: rgb(190, 113, 96);
+  text-decoration: none;
+}

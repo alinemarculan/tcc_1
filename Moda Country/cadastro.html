@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moda Country</title>
+  <link rel="stylesheet" href="acess/css/cadastro.css">
+  
+</head>
+<body>
+  <div class="logo">
+    <img src="imagens/logo.png" alt="Logo">
+  </div>
+  
+  <header>
+    <h1>Moda Country</h1>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Página Inicial</a></li>
+        <li><a href="produto.html">Produtos</a></li>
+        <li><a href="sobre nos.html">Sobre Nós</a></li> 
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+      
+      <div class="icon-container">
+        <div class="container">
+          <a href="carrinho.html">
+            <img width="45" height="45" src="https://img.icons8.com/pastel-glyph/50/shopping-trolley--v2.png" alt="shopping-trolley--v2"/>
+          </a>
+          <a href="favorito.html">
+            <img width="45" height="45" src="https://img.icons8.com/ios/50/country-music.png" alt="country-music"/>       
+          </a>
+          <a href="login.html">   
+            <img width="45" height="45" src="https://img.icons8.com/parakeet-line/50/test-account.png" alt="test-account"/>
+          </a>
+        </div>
+      </div>   
+    </nav>
+  </header>
+
+  <div class="box">
+    <form action="processa_cadastro.php" method="post">
+      <fieldset>
+        <legend><b>Cadastro Cliente</b></legend>
+        <br>
+        <div class="inputBox">
+          <input type="text" name="nome" id="nome" class="inputUser" required>
+          <label for="nome" class="labelInput">Nome Completo</label>
+        </div>
+        <br><br>
+        <div class="inputBox">
+          <input type="text" name="email" id="email" class="inputUser" required>
+          <label for="email" class="labelInput">Email</label>
+        </div>
+        <br><br>
+        <div class="inputBox">
+          <input type="text" name="telefone" id="telefone" class="inputUser" required>
+          <label for="telefone" class="labelInput">Telefone</label>
+        </div>
+        <br><br>
+        <p>Sexo:</p>
+        <input type="radio" id="feminino" name="genero" value="feminino" required>
+        <label for="feminino">Feminino</label>
+        <b></b>
+        <input type="radio" id="masculino" name="genero" value="masculino" required>
+        <label for="masculino">Masculino</label>
+        <b></b>
+        <input type="radio" id="outros" name="genero" value="outros" required>
+        <label for="outros">Outros</label>
+        <br><br>
+        <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+        <input type="date" name="data_nascimento" id="data_nascimento" required>
+        <br><br>
+        <div class="inputBox">
+          <input type="text" name="cidade" id="cidade" class="inputUser" required>
+          <label for="cidade" class="labelInput">Cidade</label>
+        </div>
+        <br><br>
+        <div class="inputBox">
+          <input type="text" name="estado" id="estado" class="inputUser" required>
+          <label for="estado" class="labelInput">Estado</label>
+        </div>
+        <br><br>
+        <div class="inputBox">
+          <input type="text" name="endereco" id="endereco" class="inputUser" required>
+          <label for="endereco" class="labelInput">Endereço</label>
+        </div>
+        <br><br>
+       
+        <button>Enviar</button>
+      </fieldset>
+    </form>
+  </div>
+
+</body>
+</html>

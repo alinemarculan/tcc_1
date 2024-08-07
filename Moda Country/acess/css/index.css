@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Centraliza o texto do corpo */
+}
+
+header {
+  background-color: #F6BF8D;
+  padding: 20px 0;
+}
+
+.logo {
+  position: absolute;
+  top: 10px; /* Ajuste conforme necessário */
+  left: 10px; /* Ajuste conforme necessário */
+  z-index: 1000; /* Garante que o logo fique acima do conteúdo */
+}
+
+.logo img {
+  width: 75px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+}
+
+.icon {
+  display: flex;
+  top: 10px;
+  right: 10px;
+}
+
+
+.icon a {
+  color: #000;
+  font-size: 24px;
+  text-decoration: none;
+
+}
+
+.icon-container.right {
+  right: 100px;
+}
+
+.icon a:hover {
+  color: #007bff;
+}
+
+.icon-container {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    
+}
+
+.icon-container img {
+    width: 30px;
+    height: 30px;
+}
+
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav {
+  margin: 20px 0;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centraliza os itens do nav */
+  gap: 20px; /* Espaçamento entre os itens */
+}
+
+.nav-list li {
+  display: inline;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #9D693A;
+  font-size: 1.2em;
+}
+
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+
+#produtos-destaque .produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.produto img {
+  width: 100%;
+  height: auto;
+}
+
+.produto h3 {
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+
+.footer{
+  background-color:rgba(244, 166, 99, 0.4);
+  color: black;
+  padding: 0; 
+  font-family:'Tino';
+}
+
+.produto {
+  display: inline-block;
+  width: 200px; /* Altere conforme necessário */
+  margin: 10px;
+}
+
+#produtos-destaque .produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}

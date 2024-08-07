@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centraliza o texto do corpo */
+  }
+  
+  header {
+    background-color: #F6BF8D;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 10px; /* Ajuste conforme necessário */
+    left: 10px; /* Ajuste conforme necessário */
+    z-index: 1000; /* Garante que o logo fique acima do conteúdo */
+  }
+  
+  .logo img {
+    width: 75px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+  }
+  
+  .icon {
+    display: flex;
+    top: 10px;
+    right: 10px;
+  }
+  
+  
+  .icon a {
+    color: #000;
+    font-size: 24px;
+    text-decoration: none;
+  
+  }
+  
+  .icon-container.right {
+    right: 100px;
+  }
+  
+  .icon a:hover {
+    color: #007bff;
+  }
+  
+  .icon-container {
+      position: absolute;
+      top: 15px;
+      right: 10px;
+      
+  }
+  
+  .icon-container img {
+      width: 30px;
+      height: 30px;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  nav {
+    margin: 20px 0;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centraliza os itens do nav */
+    gap: 20px; /* Espaçamento entre os itens */
+  }
+  
+  .nav-list li {
+    display: inline;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: #9D693A;
+    font-size: 1.2em;
+  }
+.box {
+    color: #0f0701;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(236, 231, 231, 0.8);
+    padding: 10px;
+    border-radius: 15px;
+    width: 20%;
+    height: auto;
+    max-width: 500px; /* Largura máxima da caixa, ajustável */
+    max-height: 95%; /* Altura máxima da caixa, ajustável */
+    margin-top: 8%;
+}
+
+fieldset {
+    border: 3px solid rgb(228, 185, 154);
+}
+
+legend {
+    border: 1px solid #9D693A;
+    padding: 10px;
+    text-align: center;
+    background-color: #9D693A;
+    border-radius: 8px;
+}
+
+.inputBox {
+    position: relative;
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: #000000;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelInput {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput {
+    top: -20px;
+    font-size: 12px;
+    color: dodgerblue;
+}
+#data_nascimento{
+  border: none;
+  padding: 8px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #118435;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  align-self: center;
+}
+
+form button:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+
+  
+
+
