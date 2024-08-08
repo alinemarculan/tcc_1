@@ -149,3 +149,10 @@ nav a {
         margin-right: 0; /* Remove o espaço à direita da última coluna */
     }
 }
+
+.footer{
+  background-color:rgba(198, 164, 117, 0.418);
+  color: black;
+  padding: 0; 
+  font-family:'Tino';
+}

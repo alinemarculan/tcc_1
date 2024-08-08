@@ -117,3 +117,11 @@ nav ul li a {
   color: rgb(190, 113, 96);
   text-decoration: none;
 }
+
+
+.footer{
+  background-color:rgba(198, 164, 117, 0.418);
+  color: black;
+  padding: 0; 
+  font-family:'Tino';
+}
